@@ -1,0 +1,156 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: inherit;
+    color: 
+}
+
+body {
+    margin: initial;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    background-color: #ddd;
+    width: 800px;
+    margin: 40px auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.header {
+    background-image: url(images/cv.jpg);
+    background-size: cover;
+    height: auto;
+    text-align: center;
+    padding: 40px 0 60px;
+    background-color: #eaeaea;
+}
+
+.header img.profile {
+    margin: 50px 0 10px;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    width: 150px;
+    
+}
+
+.header h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 10px #c4a2a2;
+}
+
+.header p {
+    border-top: 4px solid #fff;
+    display: inline-block;
+    padding-top: 8px;
+    margin: 12px auto;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px #a28888;
+    letter-spacing: 0.3em;
+    text-indent: 0.3em;
+}
+
+.contents {
+    padding-bottom: 20px;
+}
+.section {
+    background-image: url(images/icon-information.png);
+    background-repeat: no-repeat;
+    background-position: right 30px center;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+}
+
+.section.skills {
+    background-image: url(images/icon-skills.png);
+}
+
+.section:last-child {
+    margin-bottom: 0;
+}
+
+.section h2 {
+    color: salmon;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.list li{
+    border-left: 5px solid #eaeaea;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #999;
+    font-weight: 500;
+    transition: all .4s;
+    transform:scale;
+}
+
+.list li:hover {
+    padding: 14px 0;
+    border-color: #edaab5;
+}
+
+.footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.icon {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    border-radius: 30px;
+    border: 2px solid #ddd;
+    color: white;
+    background-image: url(images/icons.png);
+    text-indent: -9999px;
+    background-size: 144px 96px;
+    margin: 0 10px;
+}
+
+.icon.github {
+    background-position: left top;
+}
+
+.icon.facebook{
+    background-position: center top;
+}
+
+.icon.email {
+    background-position: right top;
+}
+
+.icon:hover {
+    background-position-y: bottom;
+}
